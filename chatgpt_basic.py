@@ -9,7 +9,7 @@ client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
 )
     
-question= input("Enter your question: ")
+question= input("Enter your question:\n")
 
 chat_completion = client.chat.completions.create(
    
